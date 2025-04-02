@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play MURDER - A thrilling online assassination game where strategy meets action. Experience the ultimate stealth gameplay in this popular multiplayer game.">
+    <link rel="canonical" href="https://assassin-king.online" />
+    <title>MURDER - Online Assassination Game | Play Free Now</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+        .game-container {
+            aspect-ratio: 16/9;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            .game-container {
+                aspect-ratio: 4/3;
+            }
+        }
+        .card-bg {
+            background-color: #2d2d2d;
+        }
+        .accent-color {
+            color: #ff4444;
+        }
+        .border-accent {
+            border-color: #ff4444;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="card-bg shadow-lg">
+        <div class="container mx-auto px-4 py-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-center accent-color mb-4">
+                MURDER is a fun game of assassination
+            </h1>
+            <p class="text-xl text-center text-gray-300 max-w-3xl mx-auto">
+                Experience the thrill of stealth and strategy in this popular multiplayer assassination game
+            </p>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="game-container card-bg rounded-lg shadow-lg overflow-hidden mb-8">
+            <iframe 
+                src="https://www.crazygames.com/embed/murder" 
+                class="w-full h-full"
+                frameborder="0" 
+                allow="gamepad *;"
+                title="MURDER Game"
+            ></iframe>
+        </div>
+
+        <div class="max-w-4xl mx-auto space-y-8">
+            <section class="card-bg p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold accent-color mb-4">About MURDER Game</h2>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    MURDER is an exciting multiplayer game that puts you in the shoes of an assassin. Your mission is to eliminate targets while avoiding detection. The game combines elements of stealth, strategy, and quick reflexes to create an immersive gaming experience.
+                </p>
+            </section>
+
+            <section class="card-bg p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold accent-color mb-4">Game Features</h2>
+                <ul class="list-disc list-inside space-y-2 text-lg text-gray-300">
+                    <li>Engaging multiplayer gameplay</li>
+                    <li>Stealth-based mechanics</li>
+                    <li>Strategic target elimination</li>
+                    <li>Real-time action sequences</li>
+                    <li>Multiple game modes</li>
+                </ul>
+            </section>
+
+            <section class="card-bg p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold accent-color mb-4">How to Play</h2>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    In MURDER, you'll need to use your wits and reflexes to succeed. Study your targets, plan your approach, and execute your moves with precision. Remember, stealth is your greatest ally in this game of cat and mouse.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="card-bg border-t border-accent mt-8">
+        <div class="container mx-auto px-4 py-6 text-center text-gray-400">
+            <p>© 2024 assassin-king.online - All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html> 
